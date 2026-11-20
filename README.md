@@ -1,8 +1,8 @@
 # conch
 
-[![Go Test Status](https://github.com/alien43/conch/actions/workflows/test.yml/badge.svg)](https://github.com/alien43/conch/actions/workflows/test.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/alien43/conch.svg)](https://pkg.go.dev/github.com/alien43/conch)
-[![codecov](https://codecov.io/gh/alien43/conch/graph/badge.svg)](https://codecov.io/gh/alien43/conch)
+[![Go Test Status](https://github.com/apetrov-dev/conch/actions/workflows/test.yml/badge.svg)](https://github.com/apetrov-dev/conch/actions/workflows/test.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/apetrov-dev/conch.svg)](https://pkg.go.dev/github.com/apetrov-dev/conch)
+[![codecov](https://codecov.io/gh/apetrov-dev/conch/graph/badge.svg)](https://codecov.io/gh/apetrov-dev/conch)
 
 ## What is Conch?
 
@@ -25,12 +25,12 @@ This architecture ensures zero-dependency orchestration—your applications do n
 
 Install the latest version via Go:
 ```bash
-go install github.com/alien43/conch/cmd/conch@latest
+go install github.com/apetrov-dev/conch/cmd/conch@latest
 ```
 
 Or download pre-built binaries:
 ```bash
-sudo curl -fsSL "https://github.com/alien43/conch/releases/latest/download/conch-$(uname -s | tr A-Z a-z)-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')" \
+sudo curl -fsSL "https://github.com/apetrov-dev/conch/releases/latest/download/conch-$(uname -s | tr A-Z a-z)-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')" \
   -o /usr/local/bin/conch && sudo chmod +x /usr/local/bin/conch
 ```
 

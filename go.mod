@@ -1,4 +1,4 @@
-module github.com/alien43/conch
+module github.com/apetrov-dev/conch
 
 go 1.25.0
 

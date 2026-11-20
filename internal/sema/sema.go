@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/alien43/conch/internal/core"
+	"github.com/apetrov-dev/conch/internal/core"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

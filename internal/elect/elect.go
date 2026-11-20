@@ -10,7 +10,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/alien43/conch/internal/core"
+	"github.com/apetrov-dev/conch/internal/core"
 
 	mvccpb "go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"

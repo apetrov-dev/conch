@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alien43/conch/internal/core"
-	"github.com/alien43/conch/internal/cron"
-	"github.com/alien43/conch/internal/elect"
-	"github.com/alien43/conch/internal/sema"
+	"github.com/apetrov-dev/conch/internal/core"
+	"github.com/apetrov-dev/conch/internal/cron"
+	"github.com/apetrov-dev/conch/internal/elect"
+	"github.com/apetrov-dev/conch/internal/sema"
 )
 
 // version is stamped at build time with -ldflags "-X main.version=<tag>"

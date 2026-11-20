@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alien43/conch/internal/core"
+	"github.com/apetrov-dev/conch/internal/core"
 )
 
 func TestBackoffSequence(t *testing.T) {

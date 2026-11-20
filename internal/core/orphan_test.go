@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alien43/conch/internal/testutil"
+	"github.com/apetrov-dev/conch/internal/testutil"
 )
 
 func buildConch(t *testing.T) string {

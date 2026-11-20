@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alien43/conch/internal/testutil"
+	"github.com/apetrov-dev/conch/internal/testutil"
 )
 
 // The child writes to both streams; under `set -e` a failed write is exit 1,
